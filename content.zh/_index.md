@@ -1,32 +1,37 @@
 ---
-title: 介绍
+title: CharaRoll简介
 type: docs
 ---
 
-# 中文索引页
+# CharaRoll软件实现简介
 
 {{% columns %}}
-## Astris ipse furtiva
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+## 技术概述
+
+CharaRoll 是一款基于 Python 语言开发、使用 PyQt5 库的桌面应用程序，专门用于 VTS 的模型参数配置与随机生成。该软件通过图形化界面让用户能够直观地调整和管理模型参数，并实现一键随机生成多样化模型造型。
 
 <--->
 
-## Suis quot vota
+## 工作流程
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
+- 1.	**模型加载**：从 VTS 或本地文件加载角色模型；
+- 2.	**参数配置**：在配置界面设置参数规则和互锁关系（也可使用默认规则）；
+- 3.	**随机生成**：点击生成按钮获取随机角色造型；
+- 4.	**实时调整**：在主界面通过滑块调整具体参数值；
+- 5.	**预览保存**：可预览效果并保存为配置文件。
+
 {{% /columns %}}
 
 
-## Tempora nisi nunc
+## 软件架构设计
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
+软件整体采用 MVC（Model-View-Controller）设计模式，实现界面与业务逻辑分离。
+- 前端负责：
+1、显示操作反馈；2、将操作事件发送至后端；3、接受后端对事件的处理结果并在前端界面显示。
+- 后端负责：
+1、管理软件工作中需要使用的数据；2、数据处理（随机值计算等）；3、文件读写。
+
 
     var panel = ram_design;
     if (backup + system) {
@@ -41,39 +46,22 @@ sequens!
     var export_vlog_sequence = trinitron_flowchart + supercomputer_cluster_rj(
             -1, toolbar_powerpoint_query, -2 / multiprocessing_impression);
 
-## Locis suis novi cum suoque decidit eadem
+## 前端界面层
 
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab? Venit spes
-versus finis sermonibus patefecit murum nec est sine oculis. _Ille_ inmota
-macies domoque caelestia cadit tantummodo scelus procul, corde!
+- 主界面（MainWindow）：参数预览、随机生成、文件管理；
+- 配置界面（ParamEditorWindow）：专业的参数规则配置。
 
-1. Dolentem capi parte rostro alvum habentem pudor
-2. Fulgentia sanguine paret
-3. E punior consurgit lentus
-4. Vox hasta eras micantes
+## 业务逻辑层
 
-## Facibus pharetrae indetonsusque indulsit sic incurrite foliis
+- 控制模块（ParamController）：协调数据流动和用户操作，承接前端界面的事件并转发到对应后端业务模块；
+- 生成器（ParamGenerator）：执行随机生成算法；
+- 配置器（ParamConfig）：管理随机算法规则和参数（如分组、随机概率、互锁关系等）
+- 初始化模块（ParamInitial）：根据从模型和VTS软件读取的数据，生成原始参数层数据；
 
-Nefandam et prisci palmas! Blandita cutis flectitur montis macies, te _nati_
-Latiis; turbaque inferias. Virginis tibi peracta avidusque facies caper nec, e
-at ademptae, mira.
+## 数据管理层
 
-    direct *= font(inputScareware(sliHome), crossplatform.byte(
-            ppl_encryption.excel_e_rte(integratedModelModifier), timeVirtual,
-            floating_speakers.media_printer(us, yahoo, primaryPhp)));
-    friendly_metal_flatbed(cd, isoPrimaryStorage(reader), dmaMirrored);
-    if (parse_flash_cron.metalGif(1, adServiceDevice, utility)) {
-        adf -= operation_cdma_samba;
-        imapGif.switch += torrent;
-    } else {
-        pmu.disk_captcha = digital_ppp_pci + recursionTransistor(5, dram);
-        ajax_service += grayscalePythonLock;
-        google_scroll_capacity = ftp + engine_dslam_sidebar / tape - 1;
-    }
-    drive_rw = zipTftp;
-    var suffix = software_router_extension.dimm_ddr(-5,
-            kernel_digital_minisite);
+- 数据管理器（ParamDataManager）：维护三层参数数据间的同步、更改、验证、搜索；
+- 存储库（ParamRepository）：负责文件读写和数据持久化（即把json格式的配置文件保存到对应计算机目录）；
+- 通信器（VTSCommunicator）：与 VTS 软件的实时通信；
 
-Vocavit toto; alas **mitis** maestus in liquidarum ab legi finitimosque dominam
-tibi subitus; Orionis vertitur nota. Currere alti etiam seroque cernitis
-innumeris miraturus amplectique collo sustinet quemque! Litora ante turba?
+

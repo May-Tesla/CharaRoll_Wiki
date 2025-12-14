@@ -5,10 +5,10 @@
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
 baseURL = 'http://0.0.0.0:1313/hugo-book/'
-title = 'Hugo Book'
+title = 'CharaRoll Wiki'
 theme = 'hugo-book'
 
-copyright = '[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)'
+copyright = '[© Sanmaku BY 0.5.4]( https://may-tesla.github.io/chararoll_wiki/)'
 
 # Book configuration
 disablePathToLower = true
@@ -41,8 +41,8 @@ enableGitInfo = true
   weight = 2
 
 [languages.he]
-  languageName = 'Hebrew'
-  contentDir = 'content.he'
+  languageName = 'Japanese'
+  contentDir = 'content.jp'
   languageDirection = 'rtl'
   weight = 3
 
@@ -70,18 +70,18 @@ enableGitInfo = true
 
 [[menu.home]]
   name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
+  url = 'https://github.com/may-tesla/chararoll_wiki/'
   weight = 3
 
 # [[menu.before]]
 [[menu.after]]
   name = 'Github'
-  url = 'https://github.com/alex-shpak/hugo-book/'
+  url = 'https://github.com/may-tesla/chararoll_wiki'
   weight = 10
 
 [[menu.after]]
   name = 'Hugo Themes'
-  url = 'https://themes.gohugo.io/themes/hugo-book/'
+  url = 'https://may-tesla.github.io/chararoll_wiki/'
   weight = 20
 
 [params]
