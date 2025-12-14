@@ -8,7 +8,7 @@ baseURL = 'http://0.0.0.0:1313/hugo-book/'
 title = 'CharaRoll Wiki'
 theme = 'hugo-book'
 
-copyright = '[© Sanmaku BY 0.5.4]( https://may-tesla.github.io/chararoll_wiki/)'
+copyright = '[© Sanmaku BY 0.5.4]( https://may-tesla.github.io/CharaRoll_Wiki/)'
 
 # Book configuration
 disablePathToLower = true
@@ -70,18 +70,18 @@ enableGitInfo = true
 
 [[menu.home]]
   name = 'Github'
-  url = 'https://github.com/may-tesla/chararoll_wiki/'
+  url = 'https://github.com/may-tesla/CharaRoll_Wiki/'
   weight = 3
 
 # [[menu.before]]
 [[menu.after]]
   name = 'Github'
-  url = 'https://github.com/may-tesla/chararoll_wiki'
+  url = 'https://github.com/may-tesla/CharaRoll_Wiki'
   weight = 10
 
 [[menu.after]]
   name = 'Hugo Themes'
-  url = 'https://may-tesla.github.io/chararoll_wiki/'
+  url = 'https://may-tesla.github.io/CharaRoll_Wiki/'
   weight = 20
 
 [params]
