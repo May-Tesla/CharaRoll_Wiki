@@ -43,7 +43,6 @@ enableGitInfo = true
 [languages.jp]
   languageName = 'Japanese'
   contentDir = 'content.jp'
-  languageDirection = 'rtl'
   weight = 3
 
 [menu]
