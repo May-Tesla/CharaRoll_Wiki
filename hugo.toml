@@ -40,7 +40,7 @@ enableGitInfo = true
   contentDir = 'content.zh'
   weight = 2
 
-[languages.he]
+[languages.jp]
   languageName = 'Japanese'
   contentDir = 'content.jp'
   languageDirection = 'rtl'
@@ -80,8 +80,8 @@ enableGitInfo = true
   weight = 10
 
 [[menu.after]]
-  name = 'Hugo Themes'
-  url = 'https://may-tesla.github.io/CharaRoll_Wiki/'
+  name = 'Bilibili'
+  url = 'https://www.bilibili.com/video/BV1KFxJzLELA/?spm_id_from=333.1387.homepage.video_card.click&vd_source=45194f93b3fb2211bd7e85c0478644c6'
   weight = 20
 
 [params]

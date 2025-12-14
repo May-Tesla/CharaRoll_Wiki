@@ -5,7 +5,7 @@ layout: landing
 
 <div class="book-hero">
 
-# HUGO BOOK {anchor=false}
+# CharaRoll Wiki {anchor=false}
 [Hugo](https://gohugo.io) documentation theme as simple as plain book
 
 [{{< badge style="info" title="Hugo" value="0.146" >}}](https://github.com/gohugoio/hugo/releases/tag/v0.146.7)
