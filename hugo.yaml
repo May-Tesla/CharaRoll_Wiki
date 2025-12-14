@@ -4,11 +4,11 @@
 # hugo server --printPathWarnings --disableFastRender --cleanDestinationDir=true --logLevel=debug \
 # --gc -M -s exampleSite --themesDir ../.. -b http://127.0.0.1/
 
-baseURL: http://0.0.0.0:1313/hugo-book/
-title: Hugo Book
+baseURL: https://may-tesla.github.io/CharaRoll_Wiki/
+title: CharaRoll Wiki
 theme: hugo-book
 
-copyright: "[© CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)"
+copyright: "[© Sanmaku BY 0.5.4](https://may-tesla.github.io/CharaRoll_Wiki/)"
 
 # Book configuration
 disablePathToLower: true
@@ -37,9 +37,9 @@ languages:
     languageName: Chinese
     contentDir: content.zh
     weight: 2
-  he:
-    languageName: Hebrew
-    contentDir: content.he
+  jp:
+    languageName: Japanese
+    contentDir: content.jp
     languageDirection: rtl
     weight: 3
 
@@ -59,16 +59,16 @@ menu:
       pageRef: "/showcases/"
       weight: 2
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book/"
+      url: "https://github.com/may-tesla/CharaRoll_Wiki/"
       weight: 3
 
   # before: []
   after:
     - name: "Github"
-      url: "https://github.com/alex-shpak/hugo-book"
+      url: "https://github.com/may-tesla/CharaRoll_Wiki/"
       weight: 10
     - name: "Hugo Themes"
-      url: "https://themes.gohugo.io/themes/hugo-book/"
+      url: "https://github.com/may-tesla/CharaRoll_Wiki/"
       weight: 20
 
 params:

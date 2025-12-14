@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on CharaRoll Wiki</title>
-    <link>http://0.0.0.0:1313/hugo-book/he/</link>
+    <link>https://may-tesla.github.io/CharaRoll_Wiki/he/</link>
     <description>Recent content in Introduction on CharaRoll Wiki</description>
     <generator>Hugo</generator>
     <language>he</language>
-    <copyright>[© Sanmaku BY 0.5.4]( https://may-tesla.github.io/chararoll_wiki/)</copyright>
-    <atom:link href="http://0.0.0.0:1313/hugo-book/he/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>[© Sanmaku BY 0.5.4](https://may-tesla.github.io/CharaRoll_Wiki/)</copyright>
+    <atom:link href="https://may-tesla.github.io/CharaRoll_Wiki/he/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

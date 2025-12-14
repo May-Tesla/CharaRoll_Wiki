@@ -2,55 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://0.0.0.0:1313/hugo-book/he/categories/</loc>
+    <loc>https://may-tesla.github.io/CharaRoll_Wiki/he/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://0.0.0.0:1313/hugo-book/categories/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://0.0.0.0:1313/hugo-book/zh/categories/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
-                href="http://0.0.0.0:1313/hugo-book/he/categories/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/he/categories/"
                 />
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/he/</loc>
+    <loc>https://may-tesla.github.io/CharaRoll_Wiki/he/</loc>
+    <lastmod>2025-12-14T23:48:45+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://0.0.0.0:1313/hugo-book/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://0.0.0.0:1313/hugo-book/zh/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
-                href="http://0.0.0.0:1313/hugo-book/he/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/he/"
                 />
   </url><url>
-    <loc>http://0.0.0.0:1313/hugo-book/he/tags/</loc>
+    <loc>https://may-tesla.github.io/CharaRoll_Wiki/he/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://0.0.0.0:1313/hugo-book/tags/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://0.0.0.0:1313/hugo-book/zh/tags/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
-                href="http://0.0.0.0:1313/hugo-book/he/tags/"
+                href="https://may-tesla.github.io/CharaRoll_Wiki/he/tags/"
                 />
   </url>
 </urlset>

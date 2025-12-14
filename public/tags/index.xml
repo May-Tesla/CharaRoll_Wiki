@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CharaRoll Wiki</title>
-    <link>http://0.0.0.0:1313/hugo-book/tags/</link>
+    <link>https://may-tesla.github.io/CharaRoll_Wiki/tags/</link>
     <description>Recent content in Tags on CharaRoll Wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <copyright>[© Sanmaku BY 0.5.4]( https://may-tesla.github.io/chararoll_wiki/)</copyright>
+    <copyright>[© Sanmaku BY 0.5.4](https://may-tesla.github.io/CharaRoll_Wiki/)</copyright>
     <lastBuildDate>Fri, 12 Dec 2025 01:23:02 +0800</lastBuildDate>
-    <atom:link href="http://0.0.0.0:1313/hugo-book/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://may-tesla.github.io/CharaRoll_Wiki/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>http://0.0.0.0:1313/hugo-book/tags/development/</link>
+      <link>https://may-tesla.github.io/CharaRoll_Wiki/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/tags/development/</guid>
+      <guid>https://may-tesla.github.io/CharaRoll_Wiki/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>http://0.0.0.0:1313/hugo-book/tags/go/</link>
+      <link>https://may-tesla.github.io/CharaRoll_Wiki/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/tags/go/</guid>
+      <guid>https://may-tesla.github.io/CharaRoll_Wiki/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>http://0.0.0.0:1313/hugo-book/tags/golang/</link>
+      <link>https://may-tesla.github.io/CharaRoll_Wiki/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/tags/golang/</guid>
+      <guid>https://may-tesla.github.io/CharaRoll_Wiki/tags/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://0.0.0.0:1313/hugo-book/tags/hugo/</link>
+      <link>https://may-tesla.github.io/CharaRoll_Wiki/tags/hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/tags/hugo/</guid>
+      <guid>https://may-tesla.github.io/CharaRoll_Wiki/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Templates</title>
-      <link>http://0.0.0.0:1313/hugo-book/tags/templates/</link>
+      <link>https://may-tesla.github.io/CharaRoll_Wiki/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/tags/templates/</guid>
+      <guid>https://may-tesla.github.io/CharaRoll_Wiki/tags/templates/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>http://0.0.0.0:1313/hugo-book/tags/themes/</link>
+      <link>https://may-tesla.github.io/CharaRoll_Wiki/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://0.0.0.0:1313/hugo-book/tags/themes/</guid>
+      <guid>https://may-tesla.github.io/CharaRoll_Wiki/tags/themes/</guid>
       <description></description>
     </item>
   </channel>
