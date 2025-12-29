@@ -1,0 +1,15 @@
+{
+  "name": "CharaRoll Wiki",
+  "short_name": "CharaRoll Wiki",
+  "start_url": "/CharaRoll_Wiki/",
+  "scope": "/CharaRoll_Wiki/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/CharaRoll_Wiki/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

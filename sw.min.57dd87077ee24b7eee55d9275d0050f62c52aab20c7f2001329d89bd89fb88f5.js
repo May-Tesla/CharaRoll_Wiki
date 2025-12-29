@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/CharaRoll_Wiki/sw.js",{scope:"/CharaRoll_Wiki/"})
